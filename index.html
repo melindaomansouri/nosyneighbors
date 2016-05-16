@@ -3,7 +3,6 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Home</title>
-    <meta 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
@@ -29,27 +28,18 @@
  
   $(function() {
     $( "#draggable" ).draggable({ axis: "y" });
-    $( "#draggable2" ).draggable({ axis: "x" });
- 
-    $( "#draggable3" ).draggable({ containment: "#containment-wrapper", scroll: false });
-    $( "#draggable5" ).draggable({ containment: "parent" });
   });
   </script>
 
-<style>
-  .draggable { width: 90px; height: 90px; padding: 0.5em; float: left; margin: 0 10px 10px 0; }
-  #draggable, #draggable2 { margin-bottom:20px; }
-  #draggable { cursor: n-resize; }
-  #draggable2 { cursor: e-resize; }
-  #containment-wrapper { width: 95%; height:150px; border:2px solid #ccc; padding: 10px; }
-  h3 { clear: left; }
-  </style>
+
 </head>
 <body>
     <div data-role="page">
  
-        <div data-role="header" id="draggable" class="ui-widget-content">
-
+        <div data-role="header">
+            <div id="draggable" class="ui-widget-content">
+      <h3>this should be scrolling from the top</h3>
+</div>
         </div>
         <div data-role="content">
             <!--Logo should go here-->
@@ -60,10 +50,10 @@
            
              <div data-role="navbar">       
                  
-                     <button class="ui-btn ui-icon-bars ui-btn-icon-notext" ></button>
-                     <button class="ui-btn ui-icon-comment ui-btn-icon-notext"></button>
-                     <button class="ui-btn ui-icon-camera ui-btn-icon-notext"></button>
-                     <button class="ui-btn ui-icon-gear ui-btn-icon-notext"></button>
+                     <a href="" class="ui-btn ui-icon-bars ui-btn-icon-notext" ></a>
+                     <a href="" class="ui-btn ui-icon-comment ui-btn-icon-notext"></a>
+                     <a href="" class="ui-btn ui-icon-camera ui-btn-icon-notext"></a>
+                     <a href="" class="ui-btn ui-icon-gear ui-btn-icon-notext"></a>
                 
              </div>
         </div>
