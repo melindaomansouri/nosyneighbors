@@ -29,10 +29,16 @@
             border: none;
             cursor: pointer;
         }
+		
+		.header{
+			width: 100%;
+			position: absolute;
+		}
 
         .dropdown {
             position: relative;
             display: inline-block;
+			float: right;
         }
 
         .dropdown-content {
