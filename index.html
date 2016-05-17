@@ -3,79 +3,60 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Home</title>
-     
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    
+	
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-    
-    <link rel="stylesheet" href="css/index.css"/>
-    
-    
-    
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-  <script>
-  $(function() {
-    $( "#but1" ).button({
-      icons: {
-        primary: "ui-icon-locked"
-      },
-      text: false 
-    });
-    $( "#but2" ).button({
-      icons: {
-        primary: "ui-icon-clock"
-      },
-      text: false
-    });
-});
- 
- 
-  </script>
-
-
-<style>
-  .draggable { width: 90px; height: 90px; padding: 0.5em; float: left; margin: 0 10px 10px 0; }
-  #draggable, #draggable2 { margin-bottom:20px; }
-  #draggable { cursor: n-resize; }
-  #draggable2 { cursor: e-resize; }
-  #containment-wrapper { width: 95%; height:150px; border:2px solid #ccc; padding: 10px; }
-  h3 { clear: left; }
-  </style>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div data-role="page">
- 
-        <div data-role="header" id="draggable" class="ui-widget-content">
 
+        <div data-role="header">
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                    <p><a href="">Police</a></p>
+                    <p><a href="">Fire Department</a></p>
+                    <p><a href="">Poison Control</a></p>
+                    <p><a href="">Electrition</a></p>
+                    <p><a href="">Gas</a></p>
+                    <p><a href="">Animal Control</a></p>
+                    <p><a href="">School</a></p>
+                </div>
+
+            </div>
         </div>
         <div data-role="content">
             <!--Logo should go here-->
             
             <img src="images/nosy-neighbors-logo.png" width="100%" height="100%"></img>
         </div>
-        
+
         <div data-role="footer">
+
         
-           <!-- Buttons--> 
+           <!-- Buttons --> 
              
              <center><div data-role="navbar" class="ui-navbar">
-             
-                    
-             
-                     <a href="pages/news.html"<button class="ui-btn ui-icon-bars ui-btn-icon-notext" ></button></a>
-                     
-                     <a href="pages/chat.html"<button class="ui-btn ui-icon-comment ui-btn-icon-notext"></button></a>
-                     
-                     <button class="ui-btn ui-icon-camera ui-btn-icon-notext"></button>
-                     
-                     <a href="pages/settings.html"\<button class="ui-btn ui-icon-gear ui-btn-icon-notext"></button></a>
-               
-                </div>
-             </div></center>
+
+
+
+
+            <div data-role="navbar">
+                <a href="pages/news.html" class="ui-btn ui-icon-bars ui-btn-icon-notext"></a>
+                <a href="pages/chat.html" class="ui-btn ui-icon-comment ui-btn-icon-notext"></a>
+                <a href="" class="ui-btn ui-icon-camera ui-btn-icon-notext"></a>
+                <a href="pages/settings.html" class="ui-btn ui-icon-gear ui-btn-icon-notext"></a>
+
+
+            </div>
+
         </div>
-
+</center>
     </div>
-
+	</div>
 </body>
 </html>
