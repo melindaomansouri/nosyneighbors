@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 .ui-navbar
 {
@@ -14,6 +14,7 @@
 }
 
 
+
 .ui-btn ui-icon-camera ui-btn-icon-notext
 {
 	margin: 25px;
@@ -21,7 +22,12 @@
 	height: 30px;
 }
 
-.dropbtn {
+		.header{
+			width: 100%;
+			position: absolute;
+		}
+
+        .dropbtn {
             background-color: #4CAF50;
             color: white;
             padding: 16px;
@@ -30,10 +36,7 @@
             cursor: pointer;
         }
 		
-		.header{
-			width: 100%;
-			position: absolute;
-		}
+
 
         .dropdown {
             position: relative;
@@ -66,4 +69,8 @@
 
         .dropdown:hover .dropbtn {
             background-color: #3e8e41;
+        }
+        .settings{
+            position:relative;
+            margin:20px 20px 20px 20px;
         }
