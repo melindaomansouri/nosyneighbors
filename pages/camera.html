@@ -13,8 +13,13 @@
 </head>
 <body>
     <div data-role="page">
-        <div data-role="header"></div>
+        <div data-role="header">Camera</div>
         <div data-role="content">
+        <uses-permission android:name="android.permission.CAMERA" />
+        <uses-feature android:name="android.hardware.camera" android:required="false" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.RECORD_AUDIO" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
             <!--Logo should go here-->
         </div>
         
