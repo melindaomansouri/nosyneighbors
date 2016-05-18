@@ -24,16 +24,13 @@
 
 
 .dropbtn {
-            background-color: #FF0000;
+    background-color: #FF0000;
+}
 
 		.header{
 			width: 100%;
 			position: absolute;
 		}
-        .logo{
-            position: relative;
-            margin-top: 50px;
-        }
         .dropbtn {
             background-color: #4CAF50;
 
