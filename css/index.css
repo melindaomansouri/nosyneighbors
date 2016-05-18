@@ -2,7 +2,7 @@
 /* CSS Document */
 .ui-navbar
 {
-	padding: 10px;
+	padding: 5px;
 	
 }
 
@@ -22,7 +22,7 @@
 }
 
 .dropbtn {
-            background-color: #4CAF50;
+            background-color: #FF0000;
             color: white;
             padding: 16px;
             font-size: 16px;
@@ -32,7 +32,7 @@
 		
 		.header{
 			width: 100%;
-			position: absolute;
+			float: right;
 		}
 
         .dropdown {
@@ -65,5 +65,7 @@
         }
 
         .dropdown:hover .dropbtn {
-            background-color: #3e8e41;
+            background-color: #4590D5;
         }
+		
+		
