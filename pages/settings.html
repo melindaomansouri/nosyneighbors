@@ -4,34 +4,34 @@
 <head>
     <title>Settings</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link rel="stylesheet" type="text/css" href="../css/Settings.css" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <link href="../css/index.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
     <div data-role="page">
 
         <div data-role="header" class="header">
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown</button>
-                <div class="dropdown-content">
-                    <p><a href="">Police</a></p>
-                    <p><a href="">Fire Department</a></p>
-                    <p><a href="">Poison Control</a></p>
-                    <p><a href="">Electrition</a></p>
-                    <p><a href="">Gas</a></p>
-                    <p><a href="">Animal Control</a></p>
-                    <p><a href="">School</a></p>
-                </div>
-
-            </div>
+            <h3>Settings</h3>
         </div>
         <div data-role="content" class="settings">
             <!--settings buttons go here-->
-            <div data-role="collapsible-set" class="settings">
+           <h4>Notifications</h4>
+            <label for="flip-1">Notification Sound</label>
+            <select name="flip-1" id="flip-1" data-role="slider">
+                <option value="off">Off</option>
+                <option value="on">On</option>
+            </select> 
+            <label for="flip-1">Nearby</label>
+            <select name="flip-1" id="flip-1" data-role="slider">
+                <option value="off">Off</option>
+                <option value="on">On</option>
+            </select>
+
+             <div data-role="collapsible-set" class="settings">
 
                 <div data-role="collapsible" data-collapsed="false">
                     <h3>Set Emergency Numbers</h3>
@@ -45,12 +45,19 @@
                 </div>
 
                 <div data-role="collapsible">
-                    <h3>News Feads</h3>
-                    <p>1 news fead</p>
-                    <p>2 news fead</p>
-                    <p>3 news fead</p>
-                    <p>4 news fead</p>
+                    <h3>News Feeds</h3>
+                    <p>1 news feed</p>
+                    <p>2 news feed</p>
+                    <p>3 news feed</p>
+                    <p>4 news feed</p>
                     <p>add more..</p>
+                </div>
+
+                <div data-role="collapsible">
+                    <h3>Social</h3>
+                    <p>Add facebook</p>
+                    <p>Add Twitter</p>
+
                 </div>
 
             </div>
