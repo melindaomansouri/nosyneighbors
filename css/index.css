@@ -26,7 +26,10 @@
 			width: 100%;
 			position: absolute;
 		}
-
+        .logo{
+            position: relative;
+            margin-top: 50px;
+        }
         .dropbtn {
             background-color: #4CAF50;
             color: white;
